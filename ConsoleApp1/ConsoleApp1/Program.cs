@@ -25,3 +25,5 @@ Double CalculateAverage(int[] values)
     }
     return sum / values.Length;
 }
+
+Console.WriteLine(CalculateAverage(new []{1, 2, 3}));
