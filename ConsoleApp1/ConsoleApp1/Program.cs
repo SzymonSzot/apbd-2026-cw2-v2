@@ -18,8 +18,10 @@ Console.WriteLine(b);
 
 Double CalculateAverage(int[] values)
 {
-    //foreach (int val in values)
+    Double sum = 0;
+    foreach (int val in values)
     {
-        return 0.0;
+        sum += val;
     }
+    return sum / values.Length;
 }
