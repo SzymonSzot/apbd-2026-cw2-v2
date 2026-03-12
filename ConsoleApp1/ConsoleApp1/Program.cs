@@ -15,3 +15,11 @@ b = b.Replace(" ", "");
 
 Console.WriteLine(a);
 Console.WriteLine(b);
+
+Double CalculateAverage(int[] values)
+{
+    //foreach (int val in values)
+    {
+        return 0.0;
+    }
+}
