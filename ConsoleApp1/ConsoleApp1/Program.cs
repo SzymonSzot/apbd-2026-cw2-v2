@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using Microsoft.VisualBasic.CompilerServices;
+
 Console.WriteLine("Input vector data (a, b, c)");
 string a = Console.In.ReadLine();
 Console.WriteLine("Input second vector data (a, b, c)");
@@ -24,4 +26,14 @@ Double CalculateAverage(int[] values)
         sum += val;
     }
     return sum / values.Length;
+}
+
+int CalculateMax(int[] values)
+{
+    int max = 0;
+    foreach (int val in values)
+    {
+        if (val > max) max = val;
+    }
+    return max;
 }
