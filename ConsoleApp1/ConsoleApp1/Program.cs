@@ -9,3 +9,9 @@ if (a == null || b == null)
 {
     Console.WriteLine("input error");
 }
+
+a = a.Replace(" ", "");
+b = b.Replace(" ", "");
+
+Console.WriteLine(a);
+Console.WriteLine(b);
