@@ -27,3 +27,13 @@ Double CalculateAverage(int[] values)
 }
 
 Console.WriteLine(CalculateAverage(new []{1, 2, 3}));
+
+int CalculateMax(int[] values)
+{
+    int max = 0;
+    foreach (int val in values)
+    {
+        if (val > max) max = val;
+    }
+    return max;
+}
