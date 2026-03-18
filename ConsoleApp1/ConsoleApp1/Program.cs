@@ -37,3 +37,5 @@ int CalculateMax(int[] values)
     }
     return max;
 }
+
+Console.WriteLine(CalculateMax(new []{1, 2, 3}));
