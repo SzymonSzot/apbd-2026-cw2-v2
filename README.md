@@ -1,0 +1,1 @@
+zad 5 - fast forward może wystąpić jedynie w przypadku, kiedy main nie zmienił się od momentu stworzenia gałęzi, tutaj jednak gałęzie stały się rozbierzne i mają odrębne historie zmian.
